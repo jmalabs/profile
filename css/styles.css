@@ -1,0 +1,63 @@
+.cloud-bg {}
+
+
+
+body {
+    text-align: center;
+    background-color: #cbf1f5;
+    margin-top: 100px;
+    font-family: 'Charm', cursive;
+    color: #1b335f;
+}
+
+.top-img {
+    position: absolute;
+    right: 400px;
+    width: 100px;
+}
+
+.bot-img {
+    position: absolute;
+    left: 400px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.mountain {
+
+    top: 200px;
+    position: relative;
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 4rem;
+}
+
+
+hr {
+    position: relative;
+    top: 200px;
+    width: 5%;
+    border-top: 10px dotted #1b335f;
+
+}
+
+h2 {
+    font-family: 'Bree Serif', serif;
+}
+
+.pro{
+    text-transform: uppercase;
+}
+
+
+.icons-reference{
+    position: absolute;
+    bottom: 100px;
+    font-size: 10px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
