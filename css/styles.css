@@ -1,30 +1,44 @@
-
-
-
 body {
     text-align: center;
-    background-color: #cbf1f5;
-    margin-top: 100px;
+    margin: 0;
     font-family: 'Charm', cursive;
-    color: #1b335f;
+    /* color: #40514E; */
+    color: #242f15;
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.708), rgba(40, 180, 133, 0.701)), url('../images/gear2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: auto;
 }
 
-/* .top-container {
-    position: relative;
-} */
+
+
+body ::after {
+    opacity: .2;
+}
+
+.top-container {
+    /* background-color: #cbf1f5; */
+    padding: 10px;
+}
+
+.middle-container {
+    /* background-color: #defcfc; */
+    padding: 10px;
+}
 
 .top-img {
     position: absolute;
     right: 20%;
-    width: 5%;
+    width: 50%;
 }
 
-.bot-img {
+/* .bot-img {
     position: absolute;
     left: 20%;
     width: 5%;
     margin: 0 auto;
-}
+} */
 
 .mountain {
 
@@ -40,27 +54,47 @@ h1 {
 
 hr {
     position: relative;
-    top: 200px;
     width: 5%;
-    border-top: 10px dotted #1b335f;
-
+    border: none;
+    border-top: 10px dotted #36622b;
+    margin: 50px auto;
 }
 
 h2 {
     font-family: 'Bree Serif', serif;
 }
 
-.pro{
+.pro {
     text-transform: uppercase;
 }
 
 
-.icons-reference{
-    position: absolute;
-    bottom: 2%;
+.icons-reference {
+    position: relative;
+    bottom: 1%;
     font-size: 10px;
     text-align: center;
     left: 0;
     right: 0;
     margin: 0 auto;
+}
+
+.profile-pic {
+    border-radius: 100%;
+
+}
+
+.intro {
+    width: 30%;
+    margin: 20px auto;
+}
+
+li {
+    list-style: none;
+
+}
+
+.skills {
+    width: 60%;
+    margin: 10px auto;
 }
