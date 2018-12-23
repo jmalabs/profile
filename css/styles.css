@@ -11,12 +11,6 @@ body {
     height: auto;
 }
 
-
-
-body ::after {
-    opacity: .2;
-}
-
 .top-container {
     /* background-color: #cbf1f5; */
     padding: 10px;
